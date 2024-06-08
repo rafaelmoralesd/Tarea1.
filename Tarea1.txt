@@ -1,0 +1,42 @@
+1)
+--------------------------------------------------------------------------
+void main() {
+ final a1= new rectangulo(15,15);
+  print('El area es ${a1.Area}');
+ 
+}
+
+ class rectangulo{
+  
+  final  double largo;
+  final  double ancho;
+  
+  rectangulo (this.largo,this.ancho);
+   
+  
+   double get Area => this.ancho*this.largo;
+   
+   
+   
+  
+}
+2)
+-------------------------------------------------------------------------
+void main() {
+  arreglo([1,2,3,4,5]);
+ 
+
+}
+
+ dynamic arreglo ( List<int> numeros){
+ 
+  print(numeros);
+   
+  
+  final copia = numeros.map((item)=> item).toList();
+  
+  return copia;
+}
+
+
+
